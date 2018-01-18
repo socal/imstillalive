@@ -10,7 +10,7 @@ const rl = readline.createInterface({
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-rl.question('Please provide a session cookie ', (answer) => {
+rl.question('Please provide a session cookie (example: cr_session_token_mydev=5e100b06-6cbf-467f-b71a-b70cc17a3cda)', (answer) => {
   const options = {
     headers: {
       cookie: answer,

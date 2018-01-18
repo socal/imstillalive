@@ -1,0 +1,16 @@
+{
+  "name": "imstillalive",
+  "version": "1.0.0",
+  "description": "Keeps the db connection alive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Balazs Szalai",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^1.7.3",
+    "node-libcurl": "^1.2.0"
+  }
+}

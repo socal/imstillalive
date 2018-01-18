@@ -25,6 +25,7 @@ rl.question('Please provide a session cookie (example: cr_session_token_mydev=5e
     })
     .then((res) => {
       console.log('oooh aaah ahh ahh i m still aliiive');
+      console.log('status code: ', res.status);
     })
   }, 10000);
 

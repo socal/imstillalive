@@ -1,1 +1,2 @@
 # imstillalive
+install: npm install

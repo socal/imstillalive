@@ -10,7 +10,6 @@
   "author": "Balazs Szalai",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^1.7.3",
-    "node-libcurl": "^1.2.0"
+    "node-fetch": "^1.7.3,
   }
 }

@@ -54,6 +54,7 @@ const promptMsg = (cookie) => {
 };
 
 rl.question(promptMsg(readToken()), (cookie) => {
+  cookie = cookie.length ? cookie : readToken();
   writeToken(cookie);
   start(cookie);
   rl.close();

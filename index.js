@@ -28,7 +28,9 @@ const start = (cookie) => {
   const makeRequest = request();
   const success = () => console.log(successMsg);
   const error = () => console.error(errorMsg);
-  const loop = () => makeRequest().then(success).catch(error);
+  const loop = () => {
+    makeRequest().then(success).catch(error);
+  }
   loop();
   return setInterval(loop, interval);
 };

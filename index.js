@@ -6,7 +6,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 const options = {
   headers: {
-    cookie: 'cr_session_token_mydev=2d8ee8f4-55b1-4be8-b011-925d09347dc2',
+    cookie: 'cr_session_token_mydev=5b2a66b1-e9b2-4b34-81cc-5e8dca3d6eef',
     'chain-id': 'a500-e50b-c53f-6041-112a'
   },
   agent: false
